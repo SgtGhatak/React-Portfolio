@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-align: right; 
+  font-size: 15px;
+  padding: 14px 16px;
+}
