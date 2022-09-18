@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import githubLogo from './images/github-logo.png';
+import React from 'react';
 import './App.css';
+import Navbar from "./components/navbar";
 
 function App() {
   return (
@@ -15,68 +15,31 @@ function App() {
         <meta name="description" content="This webpage belongs to Rahul Ghatak  ." />
 
         <title>
-          Home page
+          Home
         </title>
       </head>
       <body>
-        <nav>
-          <ul>
-            <li>
-              <a href='/'>Home</a>
-              </li>
-            <li>
-              <a href='/pages/about.js'>About</a>
-              </li>
-            <li>
-              <a href='/pages/contact.js'>Contact </a>
-              </li>
-          </ul>
-        </nav>
-        <div class="navbar">
-          <a href="">Home</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div> 
-        <div>
+        <div className='navigation'>
+          <Navbar />
+        </div>
+
+        <div className='Title'>
           <h1>
             This is my Title
           </h1>
         </div>
-        <div>
+        <div className='Content'>
           <p>
             This is my content
           </p>
-        </div>
-        <div>
+        </div>  
+        <div className='Github'>
           <a href='https://github.com/SgtGhatak' title='My Github'>
             This is my GitHub
           </a>
+          <img src="images/GitHub-Mark-120px-plus.png" alt='Github Logo' />
         </div>
       </body>
-    </div>
-  );
-}
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
-
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
     </div>
   );
 }
