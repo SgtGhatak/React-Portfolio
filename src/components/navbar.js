@@ -8,7 +8,7 @@ class Navbar extends Component {
                 <ul>
                     <a className="github-logo" href="https://github.com/SgtGhatak">
                         <div class="github-image">
-                            <img src="../images/GitHub-Mark-Light-120px-plus.png" alt="GitHub logo goes here" />
+                            <img src={require("../images/GitHub-Mark-Light-120px-plus.png")} alt="GitHub logo goes here" />
                         </div>
                     </a>
                 </ul>

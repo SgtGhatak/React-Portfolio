@@ -37,7 +37,7 @@ function App() {
           <a href='https://github.com/SgtGhatak' title='My Github'>
             This is my GitHub
           </a>
-          <img src="images/GitHub-Mark-120px-plus.png" alt='Github Logo' />
+          <img src={require("./images/GitHub-Mark-120px-plus.png")} alt='Github Logo' />
         </div>
       </body>
     </div>
